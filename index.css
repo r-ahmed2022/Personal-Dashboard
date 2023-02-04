@@ -1,0 +1,270 @@
+* {
+    box-sizing: border-box;
+}  
+
+body {
+    margin: 0;
+    padding: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    background-position: center fixed; 
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0px 0px 20px #aaaaaa;
+}
+
+#wrapper {
+    height: 100%;
+    display: flex;;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#top-block {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+
+#crypto {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.image { 
+    margin-right: 5px;
+    margin-left: 2px;
+}
+
+#coin {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.coin-name {
+    margin: 10px 0;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.market-list {
+    align-self: start;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    justify-content: space-around;
+    list-style: none;
+    margin: 0;
+    padding: 0 0px 0 10px;
+    font-size: 0.8rem;
+}
+
+.market-list > li {
+    margin: 0;
+    padding: 2px 5px;
+}
+
+.like {
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+}
+
+#weather-card {
+    width: auto;
+    height: 100px;
+    padding: 0 20px;
+    border: 0;
+    margin: 0 5px;
+    text-shadow: 0px 0px 20px #aaaaaa;
+}
+
+#icondiv {
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 30px;
+  }
+
+  #imgdesc {
+    width: 30px;
+    height: 30px;
+  }
+
+  .info {
+    font-weight: 700;
+    margin: 0px 10px;
+  }
+
+  .currentinfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-top: 0;
+  }
+
+  .weatherinfo {
+    list-style: none;
+    margin: 0 10px 0 0;
+  }
+
+#time-block {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#bottom-block {
+    justify-self: end;
+    display: flex;
+    justify-content: space-between;
+}
+#author {
+    align-self: end;
+}
+
+#todo-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    border: 1px solid;
+    padding: 0;
+    align-items: center;
+}
+.add-new-to-do {
+
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 1px 0 0;
+    box-shadow: 1px 1px 1px 2px #ccc;
+    flex: 1 1 0;
+  }
+  
+  .add-new-to-do > input {
+    width: 90%;
+    height: 100%;
+    margin: 0;
+    padding: 12px 15px;
+    font-size: 1rem;
+    border: 0;
+    flex: 1 1 0;
+  }
+
+  #addtask {
+    width: auto;
+    height: 100%;
+    padding: 18px 30px;
+    margin: 0;
+    background: lightblue;
+    border: 0;
+    flex: 0 1 50px;
+  }
+
+  .header {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+  
+  .header > h4 {
+    margin: 0;
+    padding-left: 180px;
+  }
+  
+  #to-do-list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 3px;
+  }
+  
+  .list-item {
+    width: 100%;
+    list-style: none;
+    margin: 10px 0;
+    padding: 5px;
+    border: 2px solid #ccc;
+    cursor: pointer;
+    background: #000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 0.8rem;
+  }
+
+  .info {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .list-item:nth-child(even) {
+  }
+  
+  .list-item:hover {
+    background: #ccc;
+    color: #fff;
+  }
+  
+  .action {
+    font-size: 0.7rem;
+    padding: 0.5rem;
+    cursor: pointer;
+    margin: 0;
+    border: 0;
+    background: lightblue;
+    box-shadow: -1px -1px 1px 1px #000;
+    border-radius: 10px;
+  }
+  
+  .action:hover {
+    transform: scale(1);
+  }
+
+  #error {
+    font-size: 1rem;
+    color: red;
+    font-weight: bold;
+    margin: 4px;
+  }
+  .task-status {
+    width: 100%;
+    background: #fff;
+    color: gray;
+    text-align: center;
+    border: 1px solid #ccc;
+  }
+  
+  .clear-list {
+    width: 70%;
+    background: lightblue;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: 0;
+    box-shadow: 1px 1px 1px 1px #ccc;
+    cursor: pointer;
+  }
+  
+  .clear-list:hover {
+    background: #ccc;
+  }
