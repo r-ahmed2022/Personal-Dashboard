@@ -54,7 +54,7 @@ Personal Dashboard is a chrome extension deevloped entirely in  HTML/CSS and Jav
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://github.com/r-ahmed2022/Personal-Dashboard/index.html)
+- [Live Demo Link](https://r-ahmed2022.github.io/Personal-Dashboard/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -85,7 +85,7 @@ Example command:
 ### Setup
 In order to run this project you need:
 1. Clone this repository to your desired location by typing this command on the terminal:
- git clone [](https://github.com/r-ahmed2022/Personal-Dashboard/index.html)
+ git clone [](https://github.com/r-ahmed2022/Personal-Dashboard.git)
 2. Open the folder "bookstore and run `npm install` to install all necesary scripts,
 3. Run from your termminal, `npm start` to open the project in your browser.
 4. run npm start to open the project in browser
